@@ -6,8 +6,8 @@ fun main(args: Array<String>) {
     println("Program arguments: ${args.joinToString()}")
 }
 
-class Sample(){
-    fun sum(a:Int, b:Int): Int{
-        return a + b
+class Sample(){   //Definisi nama class
+    fun sum(a:Int, b:Int): Int{ //deklarasi fungsi "sum" dalam class Sample dengan parameter int a dan b
+        return a + b //mengembalikan hasil penjumlahan dari a dan b
     }
 }
